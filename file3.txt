@@ -1,0 +1,4 @@
+This is the only planet i want to live1
+This is the only planet i want to live2
+This is the only planet i want to live3
+This is being append to the file

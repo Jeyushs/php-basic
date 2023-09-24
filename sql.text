@@ -1,0 +1,35 @@
+CREATE TABLE `jeyush`.`fi` (`sno` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(50) NOT NULL , `dest` VARCHAR(50) NOT NULL , PRIMARY KEY (`sno`)) ENGINE = InnoDB;
+INSERT INTO `fi` (`sno`, `name`, `dest`) VALUES ('1', 'Dipesh', 'USA');
+INSERT INTO `contactsus` (`sno`, `name`, `email`, `concern`, `date`) VALUES ('1', 'dipesh', 'dipesh@gmail.com', 'sdkp', CURRENT_TIMESTAMP); 
+SELECT * FROM `contactu2` 
+  $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+  $sql = "SELECT *FROM 'trip' WHERE dest = 'USA';
+  UPDATE `trip` SET `name` = 'Rohan' WHERE `sno` = 12; 
+
+
+
+
+
+  // Define the updates you want to perform
+$updates = array(
+    array('id' => 1, 'username' => 'new_username_1', 'email' => 'new_email_1@example.com'),
+    array('id' => 2, 'username' => 'new_username_2', 'email' => 'new_email_2@example.com'),
+    // Add more rows to update as needed
+);
+
+// Loop through each update and perform the update query
+foreach ($updates as $update) {
+    $id = $update['id'];
+    $username = $update['username'];
+    $email = $update['email'];
+    
+    $sql = "UPDATE users SET username = '$username', email = '$email' WHERE id = $id";
+    
+    "INSERT INTO `trip`(`name`,`dest`)VALUES(`Dipesh`,`USA`);
+    "UPDATE `trip` SET `name` = 'Jeyush' WHERE `dest`= 'USA'";
+
+    DELETE FROM `trip` WHERE `trip`.`sno` = 12;
+    sudo chown -R jeyush:jeyush /var/www/html/login/
+sudo chmod -R 777 /var/www/html/login/
+sudo code /var/www/html/crud/
+sudo chown -R jeyush:jeyush /var/www/html/myproject
